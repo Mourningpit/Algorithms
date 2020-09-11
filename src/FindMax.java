@@ -40,5 +40,29 @@ public class FindMax {
         }
         return m;
         */
+
+        /*find largest value in an half-open interval, need change signature
+        if(from < 0 || to > a.length || from >= to)
+        {
+          throw new IllegalArgumentException("invalid interval");
+        }
+        int m = from;
+        int m_value = a[from];
+
+        for(int i = 0; i < to; i++)
+        {
+           if(a[i] > m_value)
+           {
+             m = i;
+             m_value = a[m];
+           }
+        }
+        return m;
+        */
+
+        /* find largest value in closed interval, need change signature
+        if()
+        {}
+        */
     }
 }
