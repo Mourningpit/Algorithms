@@ -1,5 +1,6 @@
 public class FindMin {
 
+    //find smallest value in an array of numbers
     public static int Minimum(int[] a)
     {
 
